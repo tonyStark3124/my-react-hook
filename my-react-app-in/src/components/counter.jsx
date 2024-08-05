@@ -9,7 +9,7 @@ const Counter = ({num,changeCounter}) => {
   return (
 
     <div className={classes.counter}>
-      <p >counter of {num}!</p><hr className={classes.hr}/>
+      <p >counter of {num}</p><hr className={classes.hr}/>
       <h2><strong>{counter}</strong></h2>
       <button onClick={()=>{setCounter(counter+num)}}>+</button>
       <button disabled={counter===num} onClick={()=>{setCounter(counter+num-counter)}}>reset</button>
