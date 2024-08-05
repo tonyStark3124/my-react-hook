@@ -1,9 +1,19 @@
 import React from 'react'
+import Counter from './components/counter'
+import './App.css';
+
+
 
 const App3 = () => {
+    function changeCounter(counter,num,setCounter) {
+        let par = counter+num;
+        setCounter(par);
+    }
   return (
-    <div>
-      <p>i am in</p>
+    <div className='flex'>
+        <Counter num={88} changeCounter={changeCounter}/>
+        <Counter num={7} changeCounter={changeCounter}/>
+        <Counter num={1} changeCounter={changeCounter}/>
     </div>
   )
 }
