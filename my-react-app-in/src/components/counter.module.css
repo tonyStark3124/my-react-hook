@@ -1,0 +1,21 @@
+
+
+
+.counter{
+    color: yellow;
+    width: 400px;
+    height: 200px;
+    background-color: blue;
+    margin: 10px;
+    border: 1px solid black;
+    
+}
+.hr{
+    width: 300px;
+    color: rgb(4, 11, 14);
+    border: 2px solid red;
+    border-radius: 30%;
+}
+p{
+    
+}
