@@ -7,8 +7,34 @@
   justify-content:space-around;
   flex-direction: column;
   padding: 30px;
+  background-color: rgb(38, 114, 114);
+  border-radius: 100px;
 }
-
+.po{
+  color: #61dafb;
+}
+.aba{
+  background-color: rgb(6, 247, 175);
+  border-radius: 100px;
+  
+}
+.bac{
+ 
+  margin: 0 auto;
+  background-color: whitesmoke;
+  border: 6px double black;
+  height: 100px;
+  width: 600px;
+}
+.coun{
+  font-size:70px;
+}
+.res{
+  padding: 39px 30px;
+  margin: 25px;
+  border-radius: 50%;
+  font-size: xx-large;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

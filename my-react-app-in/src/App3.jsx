@@ -11,6 +11,7 @@ const App3 = () => {
     }
   return (
     <div className='flex'>
+      <p className='po'><strong>תרגיל מס' 1</strong></p>
         <Counter num={88} changeCounter={changeCounter}/>
         <Counter num={7} changeCounter={changeCounter}/>
         <Counter num={1} changeCounter={changeCounter}/>

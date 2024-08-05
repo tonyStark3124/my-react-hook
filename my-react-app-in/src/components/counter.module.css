@@ -3,19 +3,26 @@
 
 .counter{
     color: yellow;
-    width: 400px;
-    height: 200px;
-    background-color: blue;
+    width: 260px;
+    height: 180px;
+    background-color: rgba(7, 7, 253, 0.493);
     margin: 10px;
     border: 1px solid black;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
     
 }
 .hr{
-    width: 300px;
+    width: 150px;
     color: rgb(4, 11, 14);
     border: 2px solid red;
     border-radius: 30%;
 }
-p{
-    
+.two{
+   font-size: 30px;
+    color: black;
+}
+.btn{
+    padding: 5px 20px;
+    margin: 10px;
 }
