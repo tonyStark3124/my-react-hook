@@ -21,8 +21,9 @@
 .bac{
  
   margin: 0 auto;
-  background-color: whitesmoke;
-  border: 6px double black;
+  color: rgb(246, 250, 250);
+  background-color: rgb(94, 93, 93);
+  border: 6px double rgb(3, 65, 199);
   height: 100px;
   width: 600px;
 }
