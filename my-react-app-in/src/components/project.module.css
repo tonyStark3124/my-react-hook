@@ -1,0 +1,15 @@
+
+.screen{
+    width: 400px;
+    height: 150px;
+    background-color: rgb(161, 161, 233);
+    border: 2px double ;
+}
+.keyBord{
+    width: 400px;
+}
+.appProject{
+    display: grid;
+    justify-content: center;
+    grid-template-rows: auto;
+}
