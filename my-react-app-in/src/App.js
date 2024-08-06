@@ -8,10 +8,6 @@ function App() {
   return (
      <div className='App'>
 
-     <App3/>
-
-     <App4/>
-
     </div>
   );
 }
