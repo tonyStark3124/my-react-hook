@@ -13,3 +13,9 @@
     justify-content: center;
     grid-template-rows: auto;
 }
+.space{
+    width: 200px;
+}
+.colors:disabled{
+    box-shadow: 0 0 30px 10px;
+}
