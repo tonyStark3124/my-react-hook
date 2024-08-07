@@ -28,9 +28,9 @@ const AppProject = () => {
       case "lower":
         lower();
         async function lower() {
-          const lowercaseItems = await screenChars.map(item =>
+          const lowercaseItems = await screenChars.map((item) =>
             React.cloneElement(item, {
-              children:item.props.children.toLowerCase(),
+              children: item.props.children.toLowerCase(),
             })
           );
           saveMoove();
@@ -48,7 +48,7 @@ const AppProject = () => {
           );
           saveMoove();
           await setScreenChars(uppercaseItems);
-                }
+        }
         break;
       default:
         return;
@@ -77,7 +77,13 @@ const AppProject = () => {
   }
 
   function changeAllKeys(hebrow, apperCase) {
-    let allKeysSet = ["/", "'"];
+    let allKeysSet = [];
+    for (let index = 0; index <= 9; index++) {
+      allKeysSet.push(`${index}`);
+    }
+
+    allKeysSet.push("/");
+    allKeysSet.push("'");
     let start = hebrow ? "א" : apperCase ? "A" : "a";
     let and = hebrow ? "ת" : apperCase ? "Z" : "z";
 
@@ -89,6 +95,7 @@ const AppProject = () => {
       allKeysSet.push(`${String.fromCodePoint(index)}`);
     }
     allKeysSet.push(".");
+
     return allKeysSet;
   }
 
