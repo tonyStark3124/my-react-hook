@@ -14,8 +14,8 @@ const ChangeStyle = ({changeStyleColor,changeStyleSize,setAllKeysFromButton,corr
         <br />
         <button disabled={(!hebrow)} onClick={()=>{hebrow=false;setAllKeysFromButton(hebrow,apperCase)}}>english</button>
         <button disabled={hebrow} onClick={()=>{hebrow=true;setAllKeysFromButton(hebrow,apperCase)}}>hebrow</button>
-        <button disabled={apperCase} onClick={()=>{apperCase=true;setAllKeysFromButton(hebrow,apperCase)}}>apper case</button>
-        <button disabled={(!apperCase)} onClick={()=>{apperCase=false;setAllKeysFromButton(hebrow,apperCase)}}>lower case</button>
+        <button disabled={apperCase || hebrow} onClick={()=>{apperCase=true;setAllKeysFromButton(hebrow,apperCase)}}>apper case</button>
+        <button disabled={(!apperCase||hebrow)} onClick={()=>{apperCase=false;setAllKeysFromButton(hebrow,apperCase)}}>lower case</button>
     </div>
   )
 }

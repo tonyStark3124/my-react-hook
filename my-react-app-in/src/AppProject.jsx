@@ -126,7 +126,7 @@ const AppProject = () => {
   function changeStyleSize(size) {
     correntSize = size;
   }
-
+  
   return (
     <div className={classes.appProject}>
       <Screen screenChars={screenChars} saveMoove={saveMoove} />
