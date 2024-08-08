@@ -13,7 +13,9 @@ function App() {
 
      {/* <App3/>
      <App4/> */}
-    <GetTo100/>
+
+
+    <GetTo100 />
 
 
       {/* <AppProject/> */}
