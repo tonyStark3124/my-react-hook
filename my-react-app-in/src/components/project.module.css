@@ -5,10 +5,11 @@
     height: 220px;
     background-color: rgb(189, 189, 194);
     border: 10px double ;
+    overflow: auto;
 }
 .keyBord{
     width: 500px;
-    padding:20px 7px;
+    padding:10px 7px;
     background-color: rgb(65, 83, 110);
     border: 3px solid black;
 }
@@ -30,7 +31,7 @@
 .parentContainer{
     display: grid;
     grid-template-columns:repeat(4 , 1fr) ; /* שני עמודות, הראשונה לוקחת את כל הרוחב הנותר והשנייה לוקחת את הגודל של הילד שלה */ 
-    grid-template-rows: repeat(3,90px);
+    grid-template-rows: repeat(3,80px);
     width: 520px;
     background-color: rgb(215, 240, 231);
 }
@@ -43,10 +44,10 @@
     grid-row: span 2;
 }
 .colors{
-    padding: 16px;
+    padding: 12px;
     border-radius: 50% ;
     font-size: xx-large;
-    margin: 10px;
+    margin: 5px;
     grid-column: span 1;
     
 }
