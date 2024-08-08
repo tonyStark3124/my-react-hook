@@ -6,13 +6,13 @@ const KeyBord = ({allKeys,setScreen}) => {
     
   return (
     <div className={classes.keyBord}>
-        {allKeys.map((element,index) => <button key={index} onClick={()=>{setScreen(element)}}>{element}</button>)}
+        {allKeys.map((element,index) => <button key={index} 
+        onClick={()=>{setScreen(element)}} className={classes.undo}>{element}</button>)}
         <br />
-        <button className={classes.space} onClick={()=>{setScreen(" ")}}>space</button>
-        <br />
-        <button onClick={()=>{setScreen('DELL')}}>delete</button>
-        <button onClick={()=>{setScreen('UNDO')}}>undo last</button>
-        <button onClick={()=>{setScreen(["\n"])}}>enter</button>
+        <button className={classes.undo} onClick={()=>{setScreen(" ")}}>delete</button>
+        <button className={classes.space}  onClick={()=>{setScreen('DELL')}}>space</button>
+        <button className={classes.undo} onClick={()=>{setScreen('UNDO')}}>undo last</button>
+        <button className={classes.undo} onClick={()=>{setScreen(["\n"])}}>enter</button>
 
     </div>
   )

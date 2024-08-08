@@ -6,6 +6,7 @@ const Screen = ({screenChars,upper}) => {
   return (
     <div className={classes.screen}>
       {screenChars}
+      
     </div>
   )
 }
